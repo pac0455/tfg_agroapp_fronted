@@ -5,6 +5,7 @@
     min-width: var(--width);
     height: 100%;
     background-color: var(--background-navbar);
+    
 }
 .navbar_icon{
     display: flex;
@@ -12,7 +13,7 @@
 }
 .navbar_icon_item{
     cursor: pointer;
-    color: white;
+    color: black;
     font-size: 35px
 }
 .navbar_icon_item:hover{

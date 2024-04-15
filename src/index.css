@@ -1,6 +1,6 @@
 :root {
-    --background-navbar:#2D3943;
-    --background-app: #F7F7F7
+    --background-navbar:#F1F1F1;
+    --background-app: #F4F4F4
 }
 *{box-sizing: border-box;}
 body{
@@ -9,5 +9,6 @@ body{
     display: flex;
     flex-direction: row;
     min-height: 100vh;
-    background-color: var(--background-app)
+    background: var(--background-app);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#348756", endColorstr="#54B6CA", GradientType=1 );
 }
