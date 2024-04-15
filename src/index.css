@@ -1,0 +1,14 @@
+:root {
+    --background-navbar:#F1F1F1;
+    --background-app: #F4F4F4
+}
+*{box-sizing: border-box;}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    background: var(--background-app);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#348756", endColorstr="#54B6CA", GradientType=1 );
+}
